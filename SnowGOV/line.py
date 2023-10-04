@@ -223,7 +223,7 @@ def create_snowflake_user(user_name, f_name, l_name, email):
 def user_creation_page():
     with st.container() as metrics_section:
 
-        image_path = 'User-Title.png'  # Replace with your image file's name
+        image_path = 'SnowGOV/User-Title.png'  # Replace with your image file's name
 
         with open(image_path, 'rb') as f:
 
