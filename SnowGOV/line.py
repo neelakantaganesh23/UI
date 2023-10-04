@@ -32,7 +32,7 @@ st.markdown(
 )
 
 # Add the image to the sidebar
-st.sidebar.image('SnowGov.png', use_column_width=True)
+st.sidebar.image('SnowGOV/SnowGov.png', use_column_width=True)
 st.sidebar.markdown('<style>div.block-container{padding-top:0rem;}</style>',unsafe_allow_html=True)
 
 #snowflake_config = st.secrets["sf_usage_app"]
