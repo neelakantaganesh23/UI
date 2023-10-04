@@ -15,3 +15,4 @@ toml
 plotly
 pillow
 streamlit_extras
+pyarrow<10.1.0
