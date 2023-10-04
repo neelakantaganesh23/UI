@@ -38,11 +38,11 @@ st.sidebar.markdown('<style>div.block-container{padding-top:0rem;}</style>',unsa
 #snowflake_config = st.secrets["sf_usage_app"]
 #connect to snowflake function
 SNOWFLAKE_CONFIG = {
-    "account": "pr65711.ap-southeast-1",#https://anblicksorg_aws.us-east-1.snowflakecomputing.com
-    "user": "snowgovernance",#snowgov
-    "password": "Sravani@23",#SnowGov@202308
+    "account": "anblicksorg_aws.us-east-1",#https://anblicksorg_aws.us-east-1.snowflakecomputing.com
+    "user": "snowgov",#snowgov
+    "password": "SnowGov@202308",#SnowGov@202308
     "role": "accountadmin",
-    "warehouse": "COMPUTE_WH",#SNOWGOV_WH
+    "warehouse": "SNOWGOV_WH",#SNOWGOV_WH
     "database": "UTIL_DB",
     "schema": "ADMIN_TOOLS"
 }
