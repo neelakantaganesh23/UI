@@ -27,7 +27,7 @@ SNOWFLAKE_CONFIG = {
     "schema": "ADMIN_TOOLS"
 }
 
-with open ('styles.css') as f:
+with open ('SnowGOV/styles.css') as f:
         st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
 
 if "grant_users" not in st.session_state:
