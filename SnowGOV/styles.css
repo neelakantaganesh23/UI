@@ -1,0 +1,26 @@
+.css-uf99v8 {align-items: flex-start !important;
+    justify-content: start !important;
+}
+.css-1y4p8pa {padding: 0px 20px;}
+
+.css-10oheav {
+    padding: 10px;
+    margin:10px;
+}
+
+
+.stButton>button {
+    background-color: #2980B9;
+    font-family: Poppins;
+    color: white;
+    margin-left:150px;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(160, 42, 65) 0%, rgb(29, 64, 119) 100%);
+    
+}
+
